@@ -252,25 +252,25 @@
      
      
      
-     int n;
-    cout << "Enter a number: ";
-    cin >> n;
-
-    
-    if (n < 0) {
-        cout << "Factorial is not defined for negative numbers." << endl;
-        return 1;
-    }
-
-    double factorial = 1; 
-    for (int i = 1; i <= n; i++) {
-    	cout<<i<<" * ";
-        factorial= factorial* i;
-    }
-
-    cout << "Factorial of "<< n <<" = " << factorial << endl;
-
-    return 0;
+//     int n;
+//    cout << "Enter a number: ";
+//    cin >> n;
+//
+//    
+//    if (n < 0) {
+//        cout << "Factorial is not defined for negative numbers." << endl;
+//        return 1;
+//    }
+//
+//    double factorial = 1; 
+//    for (int i = 1; i <= n; i++) {
+//    	cout<<i<<" * ";
+//        factorial= factorial* i;
+//    }
+//
+//    cout << "Factorial of "<< n <<" = " << factorial << endl;
+//
+//    return 0;
 
 
 
@@ -355,6 +355,19 @@
 //		c++;
 //	}
 //    cout<<"="<<sum;
+
+
+
+//count any number
+
+int n,c=0;
+cout<<"enter any of no of digirt\n";
+cin>>n;
+while(n>0){
+	c++;
+	n=n/10;
+}
+cout<<c;
     
     
     
