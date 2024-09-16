@@ -34,23 +34,23 @@ int main()
 
 
 //number is prime or not
-// int n;
-//cout<<"enter number:"<<endl;
-//cin>>n;
-//bool is_prime=true;
-//for(int i=2;i<=n/2;i++)
-//{
-//  if(n%i==0)
-//   {
-//   	is_prime=false;
-//   	cout<<i;
-//   	break;
-//	 }
-//   }
-//	if(is_prime==true)
-//	   cout<<"prime";
-//	else
-//	  cout<<"not a prime";         
+ int n;
+cout<<"enter number:"<<endl;
+cin>>n;
+bool is_prime=true;
+for(int i=2;i<=n/2;i++)
+{
+  if(n%i==0)
+   {
+   	is_prime=false;
+   	cout<<i;
+   	break;
+	 }
+   }
+	if(is_prime==true)
+	   cout<<"prime";
+	else
+	  cout<<"not a prime";         
 
 
 //find prime number in given range
