@@ -3,12 +3,12 @@ using namespace std;
 int main(){
 	
 //	pattern1
-	for(int i=1;i<=5;i++){
-		for(int j=1;j<=i;j++){
-			cout<<j<<" ";
-		}
-		cout<<endl;
-	}
+//	for(int i=1;i<=5;i++){
+//		for(int j=1;j<=i;j++){
+//			cout<<j<<" ";
+//		}
+//		cout<<endl;
+//	}
 	
 //	pattern2
 //	for(int i=1;i<=5;i++){
@@ -102,22 +102,22 @@ int main(){
 
 
 
-//int star=1;
-//for(int i=5;i>=1;i--){
-//	for(int j=i;j>=1;j--){
-//		cout<<" ";
-//	}
-//	for(int k=1;k<=star;k++){
-//		if(k%2==0){
-//			cout<<" * ";
-//		}
-//		else{
-//		   cout<<" ";
-//		}
-//	}
-//	star=star+2;
-//	cout<<endl;
-//}
+int star=1;
+for(int i=5;i>=1;i--){
+	for(int j=i;j>=1;j--){
+		cout<<" ";
+	}
+	for(int k=1;k<=star;k++){
+		if(k%2==0){
+			cout<<" * ";
+		}
+		else{
+		   cout<<" ";
+		}
+	}
+	star=star+2;
+	cout<<endl;
+}
 
 	
 //char ch='a';
