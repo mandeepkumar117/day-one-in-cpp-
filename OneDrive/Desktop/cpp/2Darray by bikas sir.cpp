@@ -49,9 +49,10 @@ int sum=0;
 for(int r=0; r<3; r++){
 	for(int c=0; c<3; c++){
 		sum=sum+arr[r][c];
-		cout<<"sum of array"<<sum<<"\t";
+		
 	}
-	cout<<"\n";
+	cout<<"sum of array"<<sum<<"\t";
+
 }
 }
 
