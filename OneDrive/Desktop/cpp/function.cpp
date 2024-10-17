@@ -17,6 +17,6 @@ int main(){
     cout<<"\n";
     cout<<sqrt(64);
     cout<<"\n";
-    cout<<"power:-"<<pow(3,2);
+    cout<<"power:-"<<pow(3,3);
 }
 
