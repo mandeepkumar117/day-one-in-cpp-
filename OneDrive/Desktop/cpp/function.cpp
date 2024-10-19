@@ -6,6 +6,7 @@
 //1)pre-Define
 //2)user-Define
 
+
 #include<iostream>
 using namespace std;
 #include<math.h>
