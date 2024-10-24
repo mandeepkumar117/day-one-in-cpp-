@@ -8,29 +8,40 @@
 #include<iostream>
 using namespace std;
 
-void show(){  //no return without parameter
-	cout<<"welcome\n";
-}
-void sum(int a,int b){ //formal parameter
-	cout<<a+b<<"\n";
-}
+//void show(){  //no return without parameter
+//	cout<<"welcome\n";
+//}
+//void sum(int a,int b){ //formal parameter
+//	cout<<a+b<<"\n";
+//}
+
 //void square(int a){
 //	int sq=a*a;
 //	cout<<"square of number="<<sq<<endl;
 //}
+
 //void add(int a=9,int b=0,int c=0){
 //	cout<<"result= "<<a+b+c<<"\n";
 //}
- int fact=1;
-void factorial(int a){
+
+// int fact=1;
+//void factorial(int a){
 	
-	for(a; a>0; a--){
-		fact=fact*a;
-	}
-	
-}
-void display(){
-	cout<<"factorial of number is= "<<fact;
+//	for(a; a>0; a--){
+//		fact=fact*a;
+//	}
+//	
+//}
+//void display(){
+//	cout<<"factorial of number is= "<<fact;
+//}
+
+void swap(int &a, int &b){ //call by reference
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	cout<<"value of a= "<<a<<"\n";
+	cout<<"value of b= "<<b<<"\n";
 }
 
 
@@ -42,8 +53,17 @@ int main(){
 //	sum(a1,b1); //actual parameter
 //	add();
 //	square(2);
-	factorial(5);
-	display();
+//	factorial(5);
+//	display();
+
+ int x,y;
+cout<<"enter 2 no\n";
+cin>>x>>y;
+swap(x,y);
+cout<<"value of x= "<<x<<"\n";
+cout<<"value of y= "<<y<<"\n";
+
+
 
 }
 
