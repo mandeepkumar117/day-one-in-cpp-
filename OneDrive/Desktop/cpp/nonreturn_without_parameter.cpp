@@ -61,7 +61,7 @@ cout<<"enter 2 no\n";
 cin>>x>>y;
 swap(x,y);
 cout<<"value of x= "<<x<<"\n";
-cout<<"value of y= "<<y<<"\n";
+cout<<"value of y= "<<y<<"\n"; 
 
 
 

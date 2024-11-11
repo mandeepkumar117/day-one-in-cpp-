@@ -45,6 +45,8 @@ int main(){
 //		cout<<endl;
 //	}
 
+
+
 //pattern6
     
 //	for(char i='a';i<='z';i++){
@@ -102,22 +104,22 @@ int main(){
 
 
 
-int star=1;
-for(int i=5;i>=1;i--){
-	for(int j=i;j>=1;j--){
-		cout<<" ";
-	}
-	for(int k=1;k<=star;k++){
-		if(k%2==0){
-			cout<<" * ";
-		}
-		else{
-		   cout<<" ";
-		}
-	}
-	star=star+2;
-	cout<<endl;
-}
+//int star=1;
+//for(int i=5;i>=1;i--){
+//	for(int j=i;j>=1;j--){
+//		cout<<" ";
+//	}
+//	for(int k=1;k<=star;k++){
+//		if(k%2==0){
+//			cout<<" * ";
+//		}
+//		else{
+//		   cout<<" ";
+//		}
+//	}
+//	star=star+2;
+//	cout<<endl;
+//}
 
 	
 //char ch='a';
