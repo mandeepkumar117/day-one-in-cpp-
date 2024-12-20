@@ -1,6 +1,6 @@
 //note->we can use function inside a class ib 2 ways
 //1.function declare &  define inside a class
-//2)function declare on a class but define outside of class
+//2)function declare in a class but define outside of class
 
 #include<iostream>
 using namespace std;

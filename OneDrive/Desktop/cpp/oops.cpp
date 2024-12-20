@@ -1,5 +1,6 @@
 //oops-> object orinted programing language
 //features->>class and object,inheritence,encapsulation,polymorohism,Abstraction.
+//object->instance of a class is called an obj.or it is real world intity
 //class->1)class is a user define data types,which user defined it  according to the requirement of real world problem.
 //2)it is templete where we define attributes and behaviour
 //3)class consist of daata member function or  class is a collection of  data member and member function is called class
